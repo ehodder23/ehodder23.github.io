@@ -17,8 +17,8 @@ Colors:
 
 	- icons and wrappers
 		- style 1 before and after: #46824d #224426 green
-		- style 2 before and after: #3d828c #27545a light blue
-		- style 3 before and after: #3d718c #2a4e61 darker blue
+		- style 2 before and after: #5daa66 #509158 lighter green
+		- style 3 before and after: #3d828c #27545a light blue/turquoise
 		- alt: #142917
 
 */
@@ -2567,19 +2567,19 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #3d828c;
+					color: #5daa66;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #27545a;
+					color: #509158;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #3d718c;
+					color: #3d828c;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #2a4e61;
+					color: #27545a;
 				}
 
 /* Image */
@@ -3271,19 +3271,19 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #3d828c; /* controls color for projects section */
+			background-color: #5daa66; /* controls color for projects section */
 		}
 
 		.wrapper.style2-alt {
-			background-color: #27545a;
+			background-color: #509158;
 		}
 
 		.wrapper.style3 {
-			background-color: #3d718c; /* controls unused section 3*/
+			background-color: #3d828c; /* controls unused section */
 		}
 
 		.wrapper.style3-alt {
-			background-color: #2a4e61;
+			background-color: #27545a;
 		}
 
 		.wrapper.fullscreen {
