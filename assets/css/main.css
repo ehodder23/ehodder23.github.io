@@ -8,19 +8,19 @@
 
 /*
 Colors: 
-	- sidebar on main page and background on project pages (darker green): #315f37
+	- sidebar on main page and background on project pages (darker green): #224426
 	- background of main and top bar project pages (lighter green): #46824d
+	- bottom bar on main and project pages: #315f37
 	- lines under headings: #3e7d46 #55a06c
-	- lines under links: 
-		- unpressed: (very dark green) #224426
-		- active gradient for index page: #315f37, #55a06c
+	- lines under links:
+		- unpressed: (very dark green) #315f37
+		- active gradient for index page: #224426, #55a06c
 
 	- icons and wrappers
-		- style 1 before and after: #46824d #224426 green
+		- style 1 before and after: #46824d #315f37 green
 		- style 2 before and after: #5daa66 #509158 lighter green
 		- style 3 before and after: #3d828c #27545a light blue/turquoise
 		- alt: #142917
-
 */
 
 html, body, div, span, applet, object,
@@ -2017,7 +2017,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3em 2em 1em 2em ; /* top, right, bottom, left */
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2563,7 +2563,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #224426;
+					color: #315f37;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -3259,7 +3259,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #142917; /* bottom bar on all pages? */
+			background-color: #224426; /* bottom bar on project pages */
 		}
 
 		.wrapper.style1 {
@@ -3267,7 +3267,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #224426;
+			background-color: #315f37; /*TODO COLOR bottom bar on index page*/
 		}
 
 		.wrapper.style2 {
@@ -3547,7 +3547,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #315f37; /*TODO COLOR sidebar on index page*/
+		background: #224426; /*TODO COLOR sidebar on index page*/
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3784,15 +3784,15 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #224426; /*TODO COLOR*/
+				background: #315f37; /*TODO COLOR unselected index left sidebar underline*/
 			}
 
 			#sidebar nav a:after {
 				/* TODO COLOR underlines of sections on index page left sidebar*/
-				background-image: -moz-linear-gradient(to right, #315f37, #55a06c);
-				background-image: -webkit-linear-gradient(to right, #315f37, #55a06c);
-				background-image: -ms-linear-gradient(to right, #315f37, #55a06c);
-				background-image: linear-gradient(to right, #315f37, #55a06c);
+				background-image: -moz-linear-gradient(to right, #224426, #55a06c);
+				background-image: -webkit-linear-gradient(to right, #224426, #55a06c);
+				background-image: -ms-linear-gradient(to right, #224426, #55a06c);
+				background-image: linear-gradient(to right, #224426, #55a06c);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
