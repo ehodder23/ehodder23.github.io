@@ -19,7 +19,7 @@ Colors:
 	- icons and wrappers
 		- style 1 before and after: #46824d #315f37 green
 		- style 2 before and after: #5daa66 #509158 lighter green
-		- style 3 before and after: #3d828c #27545a light blue/turquoise
+		- style 3 before and after: #5db367 #58aa62 lightest green
 		- alt: #142917
 */
 
@@ -3279,11 +3279,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #3d828c; /* controls unused section */
+			background-color: #5db367; /* controls courses section */
 		}
 
 		.wrapper.style3-alt {
-			background-color: #27545a;
+			background-color: #58aa62;
 		}
 
 		.wrapper.fullscreen {
